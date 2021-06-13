@@ -23,9 +23,4 @@ jobs:
         server-password: ${{ secrets.OSSRH_PASSWORD }}
         gpg-passphrase:  ${{ secrets.OSSRH_PASSWD }}
         gpg-private-key: ${{ secrets.OSSRH_KEY }}
-    - uses: actions/cache@v2
-      with:
-        path: ~/.m2
-        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-        restore-keys: ${{ runner.os }}-m2
     - run: mvn -B -U verify
