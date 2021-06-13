@@ -24,7 +24,7 @@ jobs:
         server-password: ${{ secrets.OSSRH_PASSWORD }}
         gpg-passphrase:  ${{ secrets.OSSRH_PASSWD }}
         gpg-private-key: ${{ secrets.OSSRH_KEY }}
-    - run: mvn -X -B -U package -Dgpg.skip
+    - run: mvn -B package -Dgpg.skip
       env:
         MAVEN_USERNAME: ${{ secrets.OSSRH_USER }}
         MAVEN_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
