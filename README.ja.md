@@ -1,5 +1,7 @@
 # Oriole
 
+[![Dream Begins](https://github.com/zhouxiaoxiang/version/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/zhouxiaoxiang/version/actions/workflows/maven.yml)
+
 [English](README.md), [日本語](README.ja.md), [简体中文](README.zh-cn.md)
 
 業界で比較的成熟したソリューションである統合Javaインターフェイスバージョン管理モジュール。

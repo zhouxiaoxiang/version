@@ -1,4 +1,4 @@
-name: Dream Begins
+name: version
 
 on:
   - workflow_dispatch
