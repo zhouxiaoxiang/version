@@ -9,6 +9,7 @@ on:
 
 jobs:
   build:
+    environment: version
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -28,7 +29,3 @@ jobs:
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
     - run: mvn -B -U verify
-      env:
-        MAVEN_USERNAME: ${{ secrets.OSSRH_USER }}
-        MAVEN_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
-        MAVEN_GPG_PASSPHRASE:  ${{ secrets.OSSRH_PASSWD }}
