@@ -12,7 +12,7 @@
 <dependency>
     <roupId>top.zhouxiaoxiang</groupId>
     <artifactId>oriole</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
