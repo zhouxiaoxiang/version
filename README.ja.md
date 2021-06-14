@@ -8,7 +8,7 @@
 
 ## デモ
 
-<script id="asciicast-420152" src="https://asciinema.org/a/420152.js" async></script>
+[![](https://asciinema.org/a/420152.svg)](https://asciinema.org/a/420152)
 
 ## 使用説明
 
