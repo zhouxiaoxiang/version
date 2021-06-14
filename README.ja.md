@@ -6,13 +6,13 @@
 
 業界で比較的成熟したソリューションである統合Javaインターフェイスバージョン管理モジュール。
 
-## デモ
+## デーモン
 
 [![](https://asciinema.org/a/420152.svg)](https://asciinema.org/a/420152?autoplay=1)
 
-## 使用説明
+## 手順
 
-### 依存
+### pom.xmlの内に下記を追記する。
 
 ```xml
 <dependency>
@@ -22,7 +22,11 @@
 </dependency>
 ```
 
-### コントローラ
+### コントローラのクラス
+
+3行目の@V(2) アノテーションを利用する。
+
+コントローラーは単純化ブール値 true を返します。
 
 ```java
 @RestController
@@ -36,7 +40,11 @@ public class DemoController {
 }
 ```
 
-### テスト
+### 実行して確認する
+
+これで「http://localhost:8080/v2/」にアクセスすると「true」が表示されます。
+
+また上記の場合は「http://localhost:8080/v1/」にアクセスするとBad Requestエラーが発生します。
  
 - 正しいバージョン
 
