@@ -6,7 +6,11 @@
 
 A unified java api version management module of SpringCloud-based microservices.
 
-## usage
+## demo
+
+[![asciicast](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C.svg)](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C)
+
+## Usage
 
 ### pom.xml
 
@@ -26,8 +30,8 @@ A unified java api version management module of SpringCloud-based microservices.
 @V(2)
 public class DemoController {
     @GetMapping
-    public String get() {
-        return "";
+    public Boolean get() {
+        return true;
     }
 }
 ```

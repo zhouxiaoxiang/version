@@ -6,7 +6,11 @@
 
 统一的java接口版本管理模块，一个行内成熟方案。
 
-## 用法 ##
+## 效果
+
+[![asciicast](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C.svg)](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C)
+
+## 用法
 
 ### 依赖
 
@@ -26,8 +30,8 @@
 @V(2)
 public class DemoController {
     @GetMapping
-    public String get() {
-        return "";
+    public Boolean get() {
+        return true;
     }
 }
 ```

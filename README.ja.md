@@ -6,6 +6,10 @@
 
 業界で比較的成熟したソリューションである統合Javaインターフェイスバージョン管理モジュール。
 
+## デモ
+
+[![asciicast](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C.svg)](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C)
+
 ## 使用説明
 
 ### 依存
@@ -26,8 +30,8 @@
 @V(2)
 public class DemoController {
     @GetMapping
-    public String get() {
-        return "";
+    public Boolean get() {
+        return true;
     }
 }
 ```
