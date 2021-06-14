@@ -6,9 +6,9 @@
 
 A unified java api version management module of SpringCloud-based microservices.
 
-## demo
+## Demo
 
-[![asciicast](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C.svg)](https://asciinema.org/a/13q2sOH658UvUr4jtuX9RWq2C)
+<script id="asciicast-420152" src="https://asciinema.org/a/420152.js" async></script>
 
 ## Usage
 
