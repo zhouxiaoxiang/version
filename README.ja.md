@@ -8,7 +8,7 @@
 
 ## デモ
 
-[![](https://asciinema.org/a/420152.svg)](https://asciinema.org/a/420152)
+[![](https://asciinema.org/a/420152.svg)](https://asciinema.org/a/420152?autoplay=1)
 
 ## 使用説明
 
