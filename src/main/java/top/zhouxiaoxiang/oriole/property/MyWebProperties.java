@@ -11,6 +11,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = MyWebProperties.PREFIX)
 public class MyWebProperties {
 
-    public static final String PREFIX = "service.name";
-    private String prefix = "/{ver}/";
+    public static final String PREFIX = "service";
+    private String name;
 }
