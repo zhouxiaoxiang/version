@@ -7,7 +7,6 @@
 A unified java api version management module of SpringCloud-based microservices.
 
 [![Stargazers repo roster for @zhouxiaoxiang/version](https://reporoster.com/stars/zhouxiaoxiang/version)](https://github.com/zhouxiaoxiang/version/stargazers)
-[![Forkers repo roster for @zhouxiaoxiang/version](https://reporoster.com/forks/zhouxiaoxiang/version)](https://github.com/zhouxiaoxiang/version/network/members)
 
 ## Demo
 
